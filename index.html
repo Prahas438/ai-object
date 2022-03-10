@@ -1,0 +1,38 @@
+<html>
+<head>
+
+	<title>AI OBJECT FINDER</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="https://i.pinimg.com/originals/c5/b8/43/c5b8439933af3a6c0f64f202f8bc85e7.jpg">
+<center>
+  <h1 class="btn btn-warning heading">AI Object Finder</h1>
+    <br>
+    <h3>The input names you give should match the names present in the COCOSSD model. Only then it will detect</h3>
+    <br>
+    <h1>Object Name:</h1>
+    <input class="form-control" id="input" type="text">
+    <br>
+    <button onclick="start()" class="btn btn-success" id="start">Start</button>
+    <br>
+    <h3 id="objects_status" class="btn btn-warning"></h3>
+    <br>
+    <h3 id="status" class="btn btn-danger"></h3>
+
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

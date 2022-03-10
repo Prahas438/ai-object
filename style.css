@@ -1,0 +1,13 @@
+body{
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+}
+input{
+    width:20%;
+}
+canvas{
+    box-shadow: 5px 5px 5px blanchedalmond;
+    border-radius: 20px;
+    margin-top: 180px;
+}
